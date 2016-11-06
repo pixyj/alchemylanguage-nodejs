@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 $(document).ready(function() {
+
+  console.log('Hello, world');
+
   // show hide content from tab click
   $('.ml-item').click(function() {
     $('.1-result').hide();
